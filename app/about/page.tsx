@@ -109,7 +109,7 @@ export default function AboutPage() {
         </div>
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-12 items-start">
           {/* Founder image */}
-          <div className="md:w-[420px] shrink-0">
+          <div className="w-full md:w-[420px] shrink-0">
             <div className="relative w-full aspect-[3/4] rounded-sm overflow-hidden border border-[#D6EAF2] shadow-md">
               <Image src="/kenna.jpg" alt="Kenna Draper" fill className="object-cover" />
             </div>

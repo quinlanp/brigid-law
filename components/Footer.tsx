@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-[#1A3A47] text-white">
-      <div className="max-w-6xl mx-auto px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="max-w-6xl mx-auto px-6 py-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Brand */}
           <div>
             <h3 className="font-[family-name:var(--font-cormorant)] text-2xl font-semibold tracking-wide mb-3">
@@ -61,7 +61,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-[#2C5F6E] mt-10 pt-6 flex flex-col md:flex-row justify-between items-center gap-3">
+        <div className="border-t border-[#2C5F6E] mt-6 pt-4 flex flex-col md:flex-row justify-between items-center gap-3">
           <p className="text-xs text-[#5BA3BF]">
             &copy; {new Date().getFullYear()} Brigid Law. All rights reserved.
           </p>

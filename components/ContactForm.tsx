@@ -95,9 +95,9 @@ export default function ContactForm() {
         </label>
         <select name="area" className={inputClass}>
           <option value="">Select an area...</option>
-          <option>Family Law</option>
-          <option>Estate Planning & Probate</option>
-          <option>Civil Litigation</option>
+          <option>Lorem Ipsum</option>
+          <option>Lorem Ipsum</option>
+          <option>Lorem Ipsum</option>
           <option>General Inquiry</option>
           <option>Other</option>
         </select>
