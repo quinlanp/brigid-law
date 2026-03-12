@@ -22,8 +22,7 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const isHome = pathname === "/";
-  const transparent = isHome && !scrolled;
+  const transparent = !scrolled;
 
   return (
     <nav
@@ -37,7 +36,7 @@ export default function Navbar() {
         {/* Logo — top left, links to home */}
         <Link href="/" className="group">
           <span
-            className={`font-[family-name:var(--font-cormorant)] text-2xl font-light italic tracking-wide transition-colors ${
+            className={`font-[family-name:var(--font-cormorant)] text-3xl md:text-2xl font-light italic tracking-wide transition-colors ${
               transparent
                 ? "text-white group-hover:text-[#8BBFD4]"
                 : "text-[#5BA3BF] group-hover:text-[#2C5F6E]"

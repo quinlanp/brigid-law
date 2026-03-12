@@ -14,8 +14,8 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-[#1A3A47]/60 via-[#2C5F6E]/40 to-[#EAF4F9]/80" />
 
         {/* Content */}
-        <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-          <h1 className="font-[family-name:var(--font-cormorant)] text-7xl md:text-9xl font-light italic text-white leading-tight tracking-wide">
+        <div className="relative z-10 text-center w-full px-4">
+          <h1 className="font-[family-name:var(--font-cormorant)] text-[10vw] sm:text-[11vw] md:text-[12vw] lg:text-[13vw] font-light italic text-white leading-none tracking-wide whitespace-nowrap">
             Brigid Law
           </h1>
         </div>
@@ -27,7 +27,8 @@ export default function Home() {
           Ready to Take the First Step?
         </h2>
         <p className="text-[#8BBFD4] mb-8 text-base max-w-xl mx-auto">
-          I offer a free 30-minute consultation — no charge, no commitment, and fully confidential.
+          I offer a free 30-minute consultation — no charge, no commitment, and
+          fully confidential.
         </p>
         <Link
           href="/contact"
